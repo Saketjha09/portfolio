@@ -16,9 +16,31 @@ export const Home = () => {
         </Helmet>
         <div className="intro_sec d-block d-lg-flex align-items-center ">
           <div
-            className="h_bg-image order-1 order-lg-2 h-100 "
-            style={{ backgroundImage: `url(${introdata.your_img_url})` }}
-          ></div>
+            className="h_bg-image order-1 order-lg-2 h-100 d-flex align-items-center justify-content-center"
+            style={{ 
+              background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center'
+            }}
+          >
+            <div className="text-center text-white">
+              <div className="coding-animation">
+                <h3 className="mb-3" style={{ fontSize: '2.5rem', fontWeight: 'bold' }}>
+                  &lt;/&gt;
+                </h3>
+                <p className="mb-2" style={{ fontSize: '1.2rem', opacity: '0.9' }}>
+                  Cloud Computing
+                </p>
+                <p className="mb-2" style={{ fontSize: '1.2rem', opacity: '0.9' }}>
+                  Full Stack Development
+                </p>
+                <p style={{ fontSize: '1.2rem', opacity: '0.9' }}>
+                  Problem Solving
+                </p>
+              </div>
+            </div>
+          </div>
           <div className="text order-2 order-lg-1 h-100 d-lg-flex justify-content-center">
             <div className="align-self-center ">
               <div className="intro mx-auto">
@@ -59,6 +81,15 @@ export const Home = () => {
               </div>
             </div>
           </div>
+        </div>
+        
+        {/* Floating Resume Button - Bottom Right */}
+        <div className="floating-resume-btn">
+          <a href={introdata.resume_link} target="_blank" rel="noopener noreferrer">
+            <div id="floating_resume" className="floating-btn">
+              📄 Resume
+            </div>
+          </a>
         </div>
       </section>
     </HelmetProvider>
