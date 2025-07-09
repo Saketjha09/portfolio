@@ -1,32 +1,27 @@
-const logotext = "JAY";
+const logotext = "SAKET";
 const meta = {
-    title: "Jay Bharuka",
-    description: "I'm Jay Bharuka - Cloud & Full Stack Developer, Computer Science undergraduate specializing in Cloud Computing",
+    title: "Saket Jha",
+    description: "I'm Saket Jha - Full Stack Developer and Software Engineer passionate about building innovative solutions",
 };
 
 const introdata = {
-    title: "I'm Jay Bharuka",
+    title: "I'm Saket Jha",
     animated: {
-        first: "I code.",
-        second: "I build apps.",
-        third: "I solve problems.",
+        first: "I design systems.",
+        second: "I build experiences.",
+        third: "I scale solutions.",
     },
-    description: "Computer Science student specializing in Cloud Computing and Full Stack Development. I love creating innovative solutions using modern technologies like React, AWS, and Java. Currently pursuing B.Tech at SRM Institute of Science and Technology, I'm always eager to learn and tackle new challenges in the tech world.",
+    description: "Full Stack Developer and Software Engineer passionate about building innovative solutions. I love creating scalable applications using modern technologies like React, Node.js, and cloud platforms. Always eager to learn and tackle new challenges in the tech world.",
     your_img_url: "",
-    resume_link: "https://docs.google.com/document/d/14108q2aGn_tcMH8KUkVODR9bZ2XBW6Fr/edit?usp=sharing&ouid=109851686402163957296&rtpof=true&sd=true",
+    resume_link: "", // Add your resume link here
 };
 
 const dataabout = {
     title: "About me",
-    aboutme: "I'm pursuing B.Tech in Computer Science Engineering with specialization in Cloud Computing at SRM Institute of Science and Technology (expected May 2027). I'm passionate about full-stack development, system design, and cloud architecture. My strengths include system design, data structures & algorithms, and building scalable full-stack applications. I enjoy exploring modern technologies in the cloud computing space and solving complex problems through code.",
+    aboutme: "I'm pursuing a B.Tech in Computer Science Engineering with a specialization in Cloud Computing at SRM Institute of Science and Technology (graduating May 2027). I'm deeply passionate about full-stack development, scalable system design, and cloud-native architectures. My core strengths lie in building end-to-end applications, optimizing performance through clean architecture, and leveraging cloud platforms for high-availability solutions. I thrive on solving real-world problems through code and continuously explore emerging technologies in the cloud and Web3 ecosystems.",
 };
 
 const worktimeline = [{
-        jobtitle: "Intern",
-        where: "360 One Wealth, Mumbai",
-        date: "June 2024",
-    },
-    {
         jobtitle: "Computer Science Student",
         where: "SRM Institute of Science and Technology",
         date: "2023-2027",
@@ -81,64 +76,40 @@ const skills = [{
     },
 ];
 
-const certifications = [{
-        title: "Oracle Cloud Infrastructure 2024 Certified Foundations Associate",
-        issuer: "Oracle",
-        link:"https://drive.google.com/file/d/1627F6IyzEfpojkMKTDX5ytPGVdhJOHFU/view",
-        date: "2024",
-        description: "Comprehensive certification covering OCI core services, networking, storage, compute, and security fundamentals.",
-    },
-];
-
 const services = [{
         title: "Full Stack Development",
-        description: "Building end-to-end web applications using React.js, Node.js, and modern databases. Expertise in creating responsive and scalable solutions with strong focus on system design and user experience.",
+        description: "Skilled in building responsive and scalable web applications using React.js, Node.js, and modern databases like MySQL and MongoDB. Experienced in designing clean user interfaces, developing RESTful APIs, and implementing secure, efficient backend systems.",
     },
     {
-        title: "Cloud Architecture",
-        description: "Designing and implementing cloud solutions using AWS services like Lambda, S3, SES, and SNS. Serverless architecture and cloud deployment with focus on scalability and cost optimization.",
+        title: "Cloud & DevOps",
+        description: "Proficient in deploying and managing applications on cloud platforms using tools like AWS, XAMPP, and GitHub. Familiar with serverless computing, CI/CD workflows, and performance optimization in cloud-based environments.",
     },
     {
-        title: "Financial Analysis & Investment Planning",
-        description: "Developed solid foundation in financial modeling, wealth management, and investment planning. Experience with equity markets, portfolio diversification, and tax optimization strategies. Skilled in data-driven financial analysis and market trend reporting using Excel and analytics tools.",
+        title: "Technical Content & Community Engagement",
+        description: "Experience in creating technical content, organizing learning-focused initiatives, and fostering developer engagement. Skilled in simplifying complex topics, driving community participation, and leveraging content formats like blogs, visuals, and short-form media.",
     },
 ];
 
 const dataportfolio = [{
+        img: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=400&h=300&fit=crop",
+        description: "Job Seeker Website – Comprehensive job portal platform connecting job seekers with employers, featuring advanced search and application management",
+        link: "#", // Add GitHub link when available
+    },
+    {
+        img: "https://images.unsplash.com/photo-1495020689067-958852a7765e?w=400&h=300&fit=crop",
+        description: "Fake News AI Detector – Machine learning application to detect and classify fake news articles using advanced NLP algorithms",
+        link: "https://github.com/Gaurav-singh101/Fake_news-detector",
+    },
+    {
         img: "https://images.unsplash.com/photo-1538108149393-fbbd81895907?w=400&h=300&fit=crop",
-        description: "Hospital Patient Management System – React, Firebase, Gemini API integration for managing patients, prescriptions, and follow-ups",
-        link: "https://github.com/jaybharuka/hpms",
-    },
-    {
-        img: "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=400&h=300&fit=crop",
-        description: "Get Lost – Smart Travel Planner – Java Swing application with MySQL database for travel planning with preferences and history",
-        link: "https://github.com/jaybharuka/travel-planner",
-    },
-    {
-        img: "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=400&h=300&fit=crop",
-        description: "Carpool Booking System – MySQL-based DBMS project with normalized schema, joins, and triggers for ride sharing",
-        link: "https://github.com/jaybharuka/carpooleasy",
-    },
-    {
-        img: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=400&h=300&fit=crop",
-        description: "Serverless Sending App – AWS Lambda, S3, SES, SNS email/SMS app triggered via API Gateway and Step Functions",
-        link: "https://github.com/jaybharuka/cloud-serverless",
-    },
-    {
-        img: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop",
-        description: "Route Finder & NLP Analytics App – React, Next.js, TypeScript with pathfinding algorithms and NLP sentiment analysis",
-        link: "https://v0-modern-route-finder-app.vercel.app/",
-    },
-    {
-        img: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop",
-        description: "Portfolio Website – Modern React portfolio with Tailwind CSS, responsive design, and smooth animations",
-        link: "#",
+        description: "Life Care Hospital Website – Complete hospital management system with modern UI/UX, patient portal, and appointment scheduling",
+        link: "#", // Add GitHub link when available
     },
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "jaybharuka7@gmail.com",
-    YOUR_FONE: "+91-9607425621",
+    YOUR_EMAIL: "saketjha@gmail.com",
+    YOUR_FONE: "+91-8250931070",
     description: "I'm always open to discussing new opportunities, collaborations, or just having a chat about technology. Feel free to reach out!",
     // After setting up EmailJS account, replace these with your actual values:
     // 1. Go to https://www.emailjs.com/ and create account
@@ -151,10 +122,10 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    github: "https://github.com/jaybharuka",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com/in/jaybharuka",
-    twitter: "https://twitter.com",
+    github: "https://github.com/Saketjha09",
+    facebook: "https://facebook.com/saketjha",
+    linkedin: "https://www.linkedin.com/in/saketjha09",
+    twitter: "https://twitter.com/saketjha09",
 };
 
 export {
@@ -163,7 +134,6 @@ export {
     dataportfolio,
     worktimeline,
     skills,
-    certifications,
     services,
     introdata,
     contactConfig,
