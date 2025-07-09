@@ -13,7 +13,7 @@ const introdata = {
     },
     description: "Full Stack Developer and Software Engineer passionate about building innovative solutions. I love creating scalable applications using modern technologies like React, Node.js, and cloud platforms. Always eager to learn and tackle new challenges in the tech world.",
     your_img_url: "",
-    resume_link: "", // Add your resume link here
+    resume_link: "https://drive.google.com/file/d/19oXRfSI4W20b2z-0wOlAQ_V4t4c5l-Sc/view?usp=sharing",
 };
 
 const dataabout = {
