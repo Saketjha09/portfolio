@@ -145,9 +145,9 @@ const contactConfig = {
     // 2. Add email service (Gmail/Outlook) and copy Service ID
     // 3. Create email template and copy Template ID  
     // 4. Get Public Key from Account settings
-    YOUR_SERVICE_ID: "service_2y5s68o", // Replace with your EmailJS Service ID
-    YOUR_TEMPLATE_ID: "template_f1kbzsn", // Replace with your EmailJS Template ID
-    YOUR_USER_ID: "CGnBYKXMgQQnfSgor", // Replace with your EmailJS Public Key
+    YOUR_SERVICE_ID: "", // Replace with your EmailJS Service ID
+    YOUR_TEMPLATE_ID: "", // Replace with your EmailJS Template ID
+    YOUR_USER_ID: "", // Replace with your EmailJS Public Key
 };
 
 const socialprofils = {
