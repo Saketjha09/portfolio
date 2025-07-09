@@ -40,3 +40,22 @@
         max-width: 1140px;
     }
 }
+
+/* Cursor Performance Optimizations */
+.cursor__dot {
+    pointer-events: none;
+    z-index: 9999;
+}
+
+.cursor__dot > div {
+    will-change: transform;
+    transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+}
+
+@media (max-width: 768px) {
+    .cursor__dot {
+        display: none;
+    }
+}
